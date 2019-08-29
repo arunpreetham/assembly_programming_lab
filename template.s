@@ -1,5 +1,12 @@
-/*
 
+
+/******************************************************************************
+* file: template.s
+* author: G S Nitesh Narayana
+* Guide: Prof. Madhumutyam IITM, PACE
+******************************************************************************/
+
+/*
    This is a basic template for writing  assembly code
 
    different sections are as shown
