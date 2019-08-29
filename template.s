@@ -7,9 +7,13 @@
    NOTE: You can code by modifying the text section
 */
 
+  @ BSS section
+      .bss
+sum: .word
+
   @ DATA SECTION
       .data
-a:    .skip 40
+number: .word 51234 
 
   @ TEXT section
       .text
@@ -19,9 +23,7 @@ a:    .skip 40
 
 _main:
 
-      @ can use the following instruction for array prog 
-      @ or delete it for other programs
-      LDR r1 ,=a     @ loads the address of the array into r1
+      
 
-      @ you can write your own code here
+        @ you can write your own code here
 
